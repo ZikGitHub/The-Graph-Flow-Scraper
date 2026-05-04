@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased font-sans;
+  }
+}
+
+.zen-card {
+  @apply bg-white/50 dark:bg-zen-ink/50 backdrop-blur-md border border-zen-ink/10 dark:border-white/10 rounded-lg p-6;
+}
+
+.zen-input {
+  @apply bg-transparent border-b-2 border-zen-ink/20 dark:border-white/20 focus:border-tori-red outline-none px-2 py-1 transition-all;
+}
+
+.zen-button {
+  @apply bg-tori-red text-white px-6 py-2 rounded-full hover:bg-tori-red/80 transition-all flex items-center justify-center gap-2;
+}

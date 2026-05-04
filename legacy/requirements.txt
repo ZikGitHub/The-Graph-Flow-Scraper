@@ -1,0 +1,7 @@
+crawlee[playwright]
+beautifulsoup4
+markdownify
+ollama
+neo4j
+python-dotenv
+asyncio
